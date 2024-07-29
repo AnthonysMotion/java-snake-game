@@ -166,7 +166,11 @@ public class Panel extends JPanel implements ActionListener{
 					}
 					break;
 					
-
+					case KeyEvent.VK_DOWN:
+					if (direction != 'U') {
+						direction = 'D';
+					}
+					break;		
 			}
 		}
 	}
